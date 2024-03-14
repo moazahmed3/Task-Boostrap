@@ -23,7 +23,28 @@ body {
   bottom: -22px;
   transform: translateX(-50%);
 }
+.btn-up{
+  background-color: var(--or-color);
+  transition: all ease .55s;
+}
+.btn-up a{
+  color: var(--main-color);
+  transition: all ease .55s;
 
+}
+.btn-up:hover {
+  background-color: transparent;
+
+}
+.btn-up a:focus{
+  box-shadow: none;
+  outline: none;
+
+}
+.btn-up:hover a{
+  color: var(--or-color);
+  border: var(--or-color) 2px solid;
+}
 /* start navbar */
 .navbar {
   background-color: var(--main-color);
